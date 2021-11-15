@@ -2,7 +2,8 @@ from socket import *
 serverSocket = socket(AF_INET, SOCK_STREAM)
 
 #Prepare a server socket
-serverSocket.bind(('192.168.43.180', 8080))
+#serverSocket.bind(('192.168.43.180', 8081))     #Dani
+serverSocket.bind(('192.168.100.95', 8081))      #Dani Home
 serverSocket.listen(1)
 while True:
 	print('Ready to serve...')
