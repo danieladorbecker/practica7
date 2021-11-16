@@ -1,6 +1,6 @@
 # Practica 7 - Peripherals and Interfaces
 
-Contains source code of an HTML both in C and Python.
+Contains source code of an Server HTML both in C and Python, and an HTTP Server in Python.
 
 
   To access the C HTML Server type into the browser bar: 
